@@ -161,9 +161,8 @@
 
 	<distributionManagement>
 	    <repository>
-	        <id>nexus-release-repository</id>
-	        <name>release-repository</name>
-	        <url>${REPOSITORY_URL}</url>
+	        <id>releases</id>
+	        <url>http://172.17.0.1:18081/nexus/content/repositories/releases</url>
 	    </repository>
 	</distributionManagement>
 
