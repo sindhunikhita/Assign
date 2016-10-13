@@ -18,6 +18,7 @@
   <distributionManagement>
    <snapshotRepository>
     <id>nexus</id>
+    <name>nexussnapshots</name>
     <url>http://nexusrepo:18081/nexus/content/repositories/snapshots</url>
    </snapshotRepository>
   </distributionManagement>  
