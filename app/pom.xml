@@ -158,5 +158,11 @@
             </resource>
         </resources>
 	</build>
+        <distributionManagement>
+          <repository>
+             <id>nexus</id>
+             <url>http://10.0.1.44:18081/nexus/content/repositories/releases</url>
+          </repository>
+        </distributionManagement>
 
 </project>
