@@ -17,7 +17,7 @@
   </dependencies>
   <distributionManagement>
    <snapshotRepository>
-    <id>snapshots</id>
+    <id>nexus</id>
     <name>nexussnapshots</name>
     <url>http://10.0.1.44:18081/nexus/content/repositories/snapshots</url>
    </snapshotRepository>
