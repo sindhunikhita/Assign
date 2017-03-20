@@ -159,12 +159,12 @@
 	</build>
         <repositories>
           <repository>
-             <id>nexus</id>
+             <id>thirdparty</id>
              <name>3rdparty</name>
              <url>http://10.0.1.68:8081/nexus/content/repositories/thirdparty</url>
           </repository>
           <repository>
-             <id>nexus</id>
+             <id>releases</id>
              <name>Releases</name>
              <url>http://10.0.1.68:8081/nexus/content/repositories/releases</url>
            </repository>
