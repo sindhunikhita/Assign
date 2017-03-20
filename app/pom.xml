@@ -6,7 +6,6 @@
 	<artifactId>conference-app</artifactId>
 	<version>3.0.0</version>
 	<packaging>war</packaging>
-
 	<name>Conference App</name>
 
 	<properties>
@@ -159,10 +158,17 @@
         </resources>
 	</build>
         <distributionManagement>
+          <repositories>
           <repository>
              <id>nexus</id>
-             <url>http://10.0.1.44:18081/nexus/content/repositories/releases</url>
+             <name>3rdparty</name>
+             <url>http://10.0.1.68:8081/nexus/content/repositories/thirdparty</url>
           </repository>
+          <repository>
+             <id>nexus</id>
+             <name>Releases</name>
+             <url>http://10.0.1.68:8081/nexus/content/repositories/releases</url>
+           </repository>
         </distributionManagement>
 
 </project>
