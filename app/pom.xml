@@ -158,7 +158,6 @@
         </resources>
 	</build>
         <distributionmanagement>
-        <repositories>
           <repository>
              <id>thirdparty</id>
              <name>3rdparty</name>
@@ -169,6 +168,5 @@
              <name>Releases</name>
              <url>http://10.0.1.68:8081/nexus/content/repositories/releases</url>
            </repository>
-          </repositories>
           </distributionmanagement>
 </project>
