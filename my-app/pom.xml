@@ -14,5 +14,10 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupid>org.sonarsource.scanner.maven</groupid>
+      <artifactid>sonar-maven-plugin</artifactid>
+      <version>3.0.2</version>
+     </dependency>
   </dependencies>
 </project>
