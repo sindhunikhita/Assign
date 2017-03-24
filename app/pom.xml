@@ -156,12 +156,28 @@
                 </excludes>
             </resource>
         </resources>
-	</build>
-        <distributionManagement>
-           <repository>
-             <id>releases</id>
-             <name>Releases</name>
-             <url>http://10.0.1.68:8081/nexus/content/repositories/releases</url>
-           </repository>
-          </distributionManagement>
-</project>
+        <plugins>
+          <plugin>
+               <groupId>org.codehaus.mojo</groupId>
+               <artifactId>cobertura-maven-plugin</artifactId>
+               <version>2.6</version>
+          <configuration>
+              <formats>
+                <format>html</format>
+                <format>xml</format>
+              </formats>
+          </configuration>
+          <executions>
+              <execution>
+                  <phase>package</phase>
+                  <goals>
+                     <goal>cobertura</goal>
+                  </goals>
+               </execution>
+          </executions>
+          </plugin>
+          </plugins>
+        </build>
+ </project>
+
+       
