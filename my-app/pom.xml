@@ -32,4 +32,10 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+  <repository>
+  <id>releases</id>
+  <url>http://10.0.1.68/nexus/content/repositories/releases</url>
+  </repository>
+  </distributionManagement>
 </project>
