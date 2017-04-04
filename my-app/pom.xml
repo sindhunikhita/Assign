@@ -10,7 +10,7 @@
   <scm>
   <url>https://github.com/sindhunikhita/Assign.git</url>
   <connection>scm:git:git://github.com/sindhunikhita/Assign.git</connection>
-  <developerConnection>scm:git:git@github.com:sindhunikhita/Assign.git</developerConnection>
+  <developerConnection>scm:git:git@github.com:mycompany/Assign.git</developerConnection>
   </scm>
   <build>
      <plugins>
