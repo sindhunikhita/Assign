@@ -9,7 +9,7 @@
   <url>http://maven.apache.org</url>
   <scm>
   <url>https://github.com/sindhunikhita/Assign.git</url>
-  <connection>scm:git:git://github.com/sindhunikhita/Assign.git</connection>
+  <connection>scm:git:https://github.com/sindhunikhita/Assign.git</connection>
   <developerConnection>scm:git:git@github.com:sindhunikhita/Assign.git</developerConnection>
   </scm>
   <build>
