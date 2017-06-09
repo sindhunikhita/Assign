@@ -36,4 +36,10 @@
        <scope>test</scope>
         </dependency>
      </dependencies> 
-  </project>
+  <distributionManagement>
+  <repository>
+  <id>releases</id>
+  <url>http://10.0.1.68:8081/nexus/content/repositories/releases</url>
+  </repository>
+  </distributionManagement>
+</project>
