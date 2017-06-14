@@ -145,7 +145,7 @@
                         <version>2.3-SNAPSHOT</version>
                         <configuration>
                         <url>http://10.0.1.79:8081/manager/html</url>
-                        <server>TomcatServer</Tomcat>
+                        <server>TomcatServer</server>
                         <path>/webapps</path>
                         </configuration>
                         </plugin>              		
