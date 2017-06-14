@@ -142,7 +142,7 @@
                         <plugin>
                         <groupId>org.apache.tomcat.maven</groupId>
                         <artifactId>tomcat7-maven-plugin</artifactId>
-                        <version>2.3-SNAPSHOT</version>
+                        <version>2.2</version>
                         <configuration>
                         <url>http://10.0.1.79:8081/manager/html</url>
                         <server>TomcatServer</server>
