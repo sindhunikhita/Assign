@@ -139,7 +139,17 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-		</plugins>
+                        <plugin>
+                        <groupId>org.apache.tomcat.maven</groupId>
+                        <artifactId>tomcat7-maven-plugin</artifactId>
+                        <version>2.3-SNAPSHOT</version>
+                        <configuration>
+                        <url>http://10.0.1.79:8081/manager/html</url>
+                        <server>TomcatServer</Tomcat>
+                        <path>/webapps</path>
+                        </configuration>
+                        </plugin>              		
+        </plugins>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
@@ -156,27 +166,6 @@
                 </excludes>
             </resource>
         </resources>
-        <plugins>
-          <plugin>
-               <groupId>org.codehaus.mojo</groupId>
-               <artifactId>cobertura-maven-plugin</artifactId>
-               <version>2.6</version>
-          <configuration>
-              <formats>
-                <format>html</format>
-                <format>xml</format>
-              </formats>
-          </configuration>
-          <executions>
-              <execution>
-                  <phase>package</phase>
-                  <goals>
-                     <goal>cobertura</goal>
-                  </goals>
-               </execution>
-          </executions>
-          </plugin>
-          </plugins>
         </build>
  </project>
 
